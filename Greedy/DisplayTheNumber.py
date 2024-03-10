@@ -5,8 +5,6 @@
 #  segments which can be turned on and off to compose different digits. The following picture describes how you can display all 10
 #  decimal digits:
 
-
-
 # As you can see, different digits may require different number of segments to be turned on. For example, if you want to display 1
 # , you have to turn on 2
 #  segments of the screen, and if you want to display 8
