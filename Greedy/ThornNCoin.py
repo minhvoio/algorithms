@@ -1,4 +1,4 @@
-# Link to problem: https://vjudge.net/problem/CodeForces-1932A/origin
+# Link to problem: https://vjudge.net/contest/614407#problem/A
 # During your journey through computer universes, you stumbled upon a very interesting world. It is a path with 𝑛
 #  consecutive cells, each of which can either be empty, contain thorns, or a coin. In one move, you can move one or two cells along the path, provided that the destination cell does not contain thorns (and belongs to the path). If you move to the cell with a coin, you pick it up.
 
