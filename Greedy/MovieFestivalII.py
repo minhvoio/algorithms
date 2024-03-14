@@ -36,6 +36,7 @@
 
 # --------------------------------
 # SOLUTION
+# O(k*n)
 
 n, k = map(int, input().split())
 
