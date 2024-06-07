@@ -26,6 +26,10 @@ def search_k(k: int, list_n: list[int]):
   where n_steps is the number of steps needed.
   """
   list_n.sort()
+
+  # If k is equal to the minimum or the maximum number in the list, return True, 1
+  if k == list_n[0] or k == list_n[-1]:
+      return True, 1
   
   # Perform Binary Search
   left = 0
@@ -61,9 +65,12 @@ def less_than_k(k: int, list_n: list[int]):
     return [], 1
 
   else: 
+
+    # If k is equal to the minimum number in the list, return
     if k == list_n[0]:
-      return [list_n[0]], 1
+      return [list_n[0]], 1    
     
+    # If k is equal or larger to the maximum number in the list, return 
     if k >= list_n[-1]:
       return list_n, 1
     
